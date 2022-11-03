@@ -1,5 +1,5 @@
-from Yone.Handlers.telethon import IMMUNE_USERS, telethn
-from Yone import REQUESTER
+from Rachit.Handlers.telethon import IMMUNE_USERS, telethn
+from Rachit import REQUESTER
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
