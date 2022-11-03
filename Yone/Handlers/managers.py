@@ -1,6 +1,6 @@
-import Yone.Database.blacklistusers_sql as sql
-from Yone import ALLOW_EXCL
-from Yone import DEV_USERS, INSPECTOR, REQUESTER
+import Rachit.Database.blacklistusers_sql as sql
+from Rachit import ALLOW_EXCL
+from Rachit import DEV_USERS, INSPECTOR, REQUESTER
 from itertools import chain
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
