@@ -6,21 +6,21 @@ from Yone.Handlers.msg_types import Types
 from Yone.Database import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Hey {first}, Kaise Aana Hua?"
+DEFAULT_GOODBYE = "Pehli Fursat Mai Nikal!"
 
 DEFAULT_WELCOME_MESSAGES = [
-    "{first} is here!",  # Discord welcome messages copied
-    "Ready player {first}",
-    "Genos, {first} is here.",
+    "{first} Ooho!",  # Discord welcome messages copied
+    "Namaste {first}Ji",
+    "Ye Dekho, {first} Aaya.",
     "A wild {first} appeared.",
     "{first} came in like a Lion!",
-    "{first} has joined your party.",
-    "{first} just joined. Can I get a heal?",
-    "{first} just joined the chat - asdgfhak!",
+    "{first} has joined your Group.",
+    "{first} just joined.",
+    "{first} just joined the chat!",
     "{first} just joined. Everyone, look busy!",
     "Welcome, {first}. Stay awhile and listen.",
-    "Welcome, {first}. We were expecting you ( ͡° ͜ʖ ͡°)",
+    "Well Cum, {first}. We were expecting you ( ͡° ͜ʖ ͡°)",
     "Welcome, {first}. We hope you brought pizza.",
     "Welcome, {first}. Leave your weapons by the door.",
     "Swoooosh. {first} just landed.",
@@ -164,10 +164,10 @@ DEFAULT_GOODBYE_MESSAGES = [
     "{first} will be missed.",
     "{first} just went offline.",
     "{first} has left the lobby.",
-    "{first} has left the clan.",
+    "{first} Gya Bsdk.",
     "{first} has left the game.",
-    "{first} has fled the area.",
-    "{first} is out of the running.",
+    "{first} Gandu Gya",
+    "{first} Bsdk Gand Marwane Aaya Tha Kya.",
     "Nice knowing ya, {first}!",
     "It was a fun time {first}.",
     "We hope to see you again soon, {first}.",
@@ -180,8 +180,8 @@ DEFAULT_GOODBYE_MESSAGES = [
     "Congratulations, {first}! You're officially free of this mess.",
     "{first}. You were an opponent worth fighting.",
     "You're leaving, {first}? Yare Yare Daze.",
-    "Bring him the photo",
-    "Go outside!",
+    "Kela Khayega",
+    "Nikal Laude!",
     "Ask again later",
     "Think for yourself",
     "Question authority",
@@ -222,7 +222,6 @@ DEFAULT_GOODBYE_MESSAGES = [
     "Go outside",
     "Always your head in the clouds",
 ]
-# Line 111 to 152 are references from https://bindingofisaac.fandom.com/wiki/Fortune_Telling_Machine
 
 
 class Welcome(BASE):
